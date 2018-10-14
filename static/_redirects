@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://youthful-leakey-4d2fd3.netlify.com/* http://www.jonbwalker.com/:splat 301!
