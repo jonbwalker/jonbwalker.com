@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <app-logo/>
-      <h1 class="title">
+      <h1 class="site-title">
         jonbwalker.com
       </h1>
       <h2 class="subtitle">
@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   min-height: 100vh;
   display: flex;
@@ -41,7 +41,7 @@ export default {
   text-align: center;
 }
 
-.title {
+.site-title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
