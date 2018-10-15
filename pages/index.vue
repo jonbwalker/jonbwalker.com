@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <app-logo/>
-      <h1 class="site-title">
+      <h1 class="site-title font-weight-thin">
         jonbwalker.com
       </h1>
       <h2 class="subtitle">
