@@ -35,7 +35,4 @@ export default {
       }
     }
   },
-
-  // Load Vuetify
-  plugins: ['~/plugins/vuetify']
 }
