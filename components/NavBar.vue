@@ -1,5 +1,5 @@
 <template>
-  <div class="anim">
+  <div>
     Hi There
   </div>
 </template>
