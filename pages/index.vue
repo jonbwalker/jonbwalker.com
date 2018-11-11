@@ -38,7 +38,7 @@
 
 <style lang="sass" scoped>
   .container
-    animation: fadein 1.5s
+    animation: 3s ease 0s normal forwards 1 fadein
     min-height: 100vh
     display: flex
     justify-content: space-around
