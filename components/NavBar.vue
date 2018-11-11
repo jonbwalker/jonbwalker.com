@@ -20,6 +20,13 @@
     font-size: 20px
     animation: fadein 2s
 
+  a
+    color: #2972a5
+
+  a:hover
+    text-decoration: none
+    color: #be6135
+
   @keyframes fadein
     from
       opacity: 0
