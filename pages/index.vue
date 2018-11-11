@@ -27,7 +27,7 @@
 
 <script>
   import AppLogo from '~/components/AppLogo.vue'
-  import NavBar from "../components/NavBar";
+  import NavBar from "../components/NavBar"
   export default {
     components: {
       NavBar,
@@ -38,6 +38,7 @@
 
 <style lang="sass" scoped>
   .container
+    animation: fadein 1.5s
     min-height: 100vh
     display: flex
     justify-content: space-around
@@ -46,7 +47,6 @@
 
   .site-title
     font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
-    /* 1 */
     display: block
     font-weight: 300
     font-size: 100px
@@ -63,5 +63,12 @@
   .links
     padding-top: 15px
 
+  @keyframes fadein
+    0%
+      opacity: 0
+    50%
+      opacity: 0
+    100%
+      opacity: 1
 </style>
 
