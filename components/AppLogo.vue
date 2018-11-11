@@ -27,7 +27,7 @@
 .Triangle--one
   border-left: 105px solid transparent
   border-right: 105px solid transparent
-  border-bottom: 180px solid #41B883
+  border-bottom: 180px solid #339DD1
 
 .Triangle--two
   top: 30px
@@ -35,7 +35,7 @@
   animation: goright 0.5s linear forwards 3.5s
   border-left: 87.5px solid transparent
   border-right: 87.5px solid transparent
-  border-bottom: 150px solid #3B8070
+  border-bottom: 150px solid #297AA5
 
 .Triangle--three
   top: 60px
@@ -43,7 +43,7 @@
   animation: goright 0.5s linear forwards 3.5s
   border-left: 70px solid transparent
   border-right: 70px solid transparent
-  border-bottom: 120px solid #35495E
+  border-bottom: 120px solid  #BC8B4C
 
 .Triangle--four
   top: 120px

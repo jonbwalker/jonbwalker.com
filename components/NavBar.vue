@@ -21,11 +21,11 @@
     animation: fadein 2s
 
   a
-    color: #2972a5
+    color: #2972A5
 
   a:hover
     text-decoration: none
-    color: #be6135
+    color: #BE8635
 
   @keyframes fadein
     from
