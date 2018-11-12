@@ -44,7 +44,7 @@
 </template>
 
 <script>
-  import AppLogo from '~/components/AppLogo.vue'
+  import AppLogo from '~/components/AppLogo'
   import NavBar from "../components/NavBar"
   export default {
     components: {
@@ -62,15 +62,16 @@
     text-align: center
 
   .site-title
+    color: #2972a5
     font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
     font-weight: 300
-    font-size: 100px
-    color: #2972a5
+    font-size: 9.5vw
     letter-spacing: 1px
+    width: auto
 
   .subtitle
     font-weight: 300
-    font-size: 42px
+    font-size: 4vw
     color: #BE8635
     word-spacing: 5px
     padding-bottom: 15px
