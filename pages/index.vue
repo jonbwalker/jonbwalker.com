@@ -1,28 +1,46 @@
 <template>
-  <div>
-    <nav-bar/>
-    <section class="container">
-      <div>
+  <b-container>
+    <b-row>
+      <nav-bar/>
+    </b-row>
+
+    <b-row>
+      <b-col cols="12">
         <app-logo/>
+      </b-col>
+    </b-row>
+
+    <b-row>
+      <b-col cols="12">
         <h1 class="site-title font-weight-thin">
           jonbwalker.com
         </h1>
+      </b-col>
+    </b-row>
+
+    <b-row>
+      <b-col cols="12">
         <h2 class="subtitle">
           personal site built with vue.js
         </h2>
-        <div class="links">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            class="button--green">Documentation</a>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            class="button--grey">GitHub</a>
-        </div>
-      </div>
-    </section>
-  </div>
+      </b-col>
+    </b-row>
+
+    <b-row class="links">
+      <b-col cols="6">
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          class="button--green">Documentation</a>
+      </b-col>
+      <b-col cols="6">
+        <a
+          href="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          class="button--grey">GitHub</a>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
@@ -38,16 +56,13 @@
 
 <style lang="sass" scoped>
   .container
-    animation: 3s ease 0s normal forwards 1 fadein
-    min-height: 100vh
-    display: flex
-    justify-content: space-around
     align-items: center
+    animation: 3s ease 0s normal forwards 1 fadein
+    justify-content: space-around
     text-align: center
 
   .site-title
     font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
-    display: block
     font-weight: 300
     font-size: 100px
     color: #2972a5

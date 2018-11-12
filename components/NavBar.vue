@@ -1,9 +1,9 @@
 <template>
-  <div class="nav-container">
-    <b-link to="/">Home</b-link>
-    <b-link to="/">Timeline</b-link>
-    <b-link to="/">Contact</b-link>
-  </div>
+  <b-container class="nav-container">
+      <b-link to="/">Home</b-link>
+      <b-link to="/">Timeline</b-link>
+      <b-link to="/">Contact</b-link>
+  </b-container>
 </template>
 
 <script>
@@ -14,7 +14,6 @@
 
 <style lang="sass" scoped>
   .nav-container
-    display: flex
     justify-content: space-around
     margin-top: 25px
     font-size: 20px
