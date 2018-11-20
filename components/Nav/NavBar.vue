@@ -1,6 +1,6 @@
 <template>
   <b-container class="nav-container">
-    <nav-item :links="navLinks"></nav-item>
+    <nav-item v-for="(link, i) in navLinks" :link="link" :key="i"></nav-item>
   </b-container>
 </template>
 
@@ -24,6 +24,7 @@
 
 <style lang="sass" scoped>
   .nav-container
+    display: flex
     margin: 25px 0 25px 0
     font-size: 20px
     animation: fadein 2s

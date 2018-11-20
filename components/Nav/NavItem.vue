@@ -1,9 +1,6 @@
 <template>
   <div>
-    <b-link v-for="(link, i) in links"
-            :key="i"
-            :to="link.url"
-            class="link-item">{{link.name}}</b-link>
+    <b-link :to="link.url">{{link.name}}</b-link>
   </div>
 </template>
 
@@ -11,7 +8,7 @@
   export default {
     name: "NavItem",
     props: {
-      links: {type: Array, required: true}
+      link: {type: Object, required: true}
     }
   }
 </script>
@@ -22,8 +19,4 @@
     &:hover
       text-decoration: none
       color: #BE8635
-
-  .link-item
-    margin: 0 50px 0 50px
-
 </style>
