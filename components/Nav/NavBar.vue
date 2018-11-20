@@ -6,15 +6,16 @@
 
 <script>
   import NavItem from "./NavItem";
+
   export default {
     name: 'NavBar',
     components: {NavItem},
     data() {
       return {
         navLinks: [
-          { name: 'Home', url: '/home' },
-          { name: 'Timeline', url: '/timeline' },
-          { name: 'Contact', url: '/contact' },
+          {name: 'Home', url: '/home'},
+          {name: 'Timeline', url: '/timeline'},
+          {name: 'Contact', url: '/contact'},
         ]
       }
     }
@@ -28,9 +29,9 @@
     font-size: 20px
     animation: fadein 2s
 
-  @keyframes fadein
-    from
-      opacity: 0
-    to
-      opacity: 1
+    @keyframes fadein
+      from
+        opacity: 0
+      to
+        opacity: 1
 </style>
