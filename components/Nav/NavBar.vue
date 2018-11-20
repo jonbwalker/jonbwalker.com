@@ -1,6 +1,6 @@
 <template>
   <b-container class="nav-container">
-    <NavItem :links="navLinks"></NavItem>
+    <nav-item :links="navLinks"></nav-item>
   </b-container>
 </template>
 
@@ -24,8 +24,7 @@
 
 <style lang="sass" scoped>
   .nav-container
-    justify-content: space-around
-    margin-top: 25px
+    margin: 25px 0 25px 0
     font-size: 20px
     animation: fadein 2s
 
