@@ -1,14 +1,23 @@
 <template>
   <b-container class="nav-container">
-      <b-link to="/">Home</b-link>
-      <b-link to="/">Timeline</b-link>
-      <b-link to="/">Contact</b-link>
+    <NavItem :links="navLinks"></NavItem>
   </b-container>
 </template>
 
 <script>
+  import NavItem from "./NavItem";
   export default {
-    name: 'NavBar'
+    name: 'NavBar',
+    components: {NavItem},
+    data() {
+      return {
+        navLinks: [
+          { name: 'Home', url: '/home' },
+          { name: 'Timeline', url: '/timeline' },
+          { name: 'Contact', url: '/contact' },
+        ]
+      }
+    }
   }
 </script>
 
@@ -18,13 +27,6 @@
     margin-top: 25px
     font-size: 20px
     animation: fadein 2s
-
-  a
-    color: #2972A5
-
-  a:hover
-    text-decoration: none
-    color: #BE8635
 
   @keyframes fadein
     from

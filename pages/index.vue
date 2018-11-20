@@ -45,7 +45,7 @@
 
 <script>
   import AppLogo from '~/components/AppLogo'
-  import NavBar from "../components/NavBar"
+  import { NavBar } from "../components/Nav"
   export default {
     components: {
       NavBar,
@@ -65,7 +65,7 @@
     color: #2972a5
     font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
     font-weight: 300
-    font-size: 9.5vw
+    font-size: 7vw
     letter-spacing: 1px
     width: auto
 
