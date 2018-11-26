@@ -80,7 +80,7 @@
     z-index: 2
 
   .coming-soon-text
-    position: absolute
+    position: fixed
     top: 70%
     left: 50%
     color: #2972a5
@@ -88,15 +88,16 @@
     font-weight: 200
     transform: translate(-50%,-50%)
     -ms-transform: translate(-50%,-50%)
+    width: inherit
     &::before
       content: '{'
       color: #BE8635
-      font-size: 7.3vw
+      font-size: calc(45px + (100 - 25) * ((100vw - 300px) / (1600 - 300)))
       padding: 5px
     &::after
       content: '}'
       color: #BE8635
-      font-size: 7.3vw
+      font-size: calc(45px + (100 - 25) * ((100vw - 300px) / (1600 - 300)))
       padding: 5px
 
   html
