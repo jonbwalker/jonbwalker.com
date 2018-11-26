@@ -58,7 +58,7 @@
 
   .coming-soon-text
     position: fixed
-    top: 50%
+    top: 55%
     left: 50%
     color: #2972a5
     font-size: calc(45px + (100 - 25) * ((100vw - 300px) / (1600 - 300)))
@@ -92,6 +92,7 @@
     font-weight: 300
     font-size: 7vw
     letter-spacing: 1px
+    padding-top: 60px
     width: auto
 
   .subtitle
