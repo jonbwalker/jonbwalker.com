@@ -12,12 +12,6 @@
 
       <b-row>
         <b-col cols="12">
-          <app-logo/>
-        </b-col>
-      </b-row>
-
-      <b-row>
-        <b-col cols="12">
           <h1 class="site-title">
             jonbwalker.com
           </h1>
@@ -32,31 +26,15 @@
         </b-col>
       </b-row>
 
-      <b-row class="links">
-        <b-col cols="6">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            class="button--green">Documentation</a>
-        </b-col>
-        <b-col cols="6">
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            class="button--grey">GitHub</a>
-        </b-col>
-      </b-row>
     </b-container>
   </div>
 </template>
 
 <script>
-  import AppLogo from '~/components/AppLogo'
   import { NavBar } from "../components/Nav"
   export default {
     components: {
       NavBar,
-      AppLogo
     }
   }
 </script>
@@ -80,7 +58,7 @@
 
   .coming-soon-text
     position: fixed
-    top: 70%
+    top: 50%
     left: 50%
     color: #2972a5
     font-size: calc(45px + (100 - 25) * ((100vw - 300px) / (1600 - 300)))
@@ -122,9 +100,6 @@
     color: #BE8635
     word-spacing: 5px
     padding-bottom: 15px
-
-  .links
-    padding-top: 15px
 
   @keyframes fadein
     0%
