@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="coming-soon">
+    <b-container class="coming-soon">
       <div class="coming-soon-text">
         coming soon
       </div>
-    </div>
-    <b-container>
+    </b-container>
+    <b-container class="blur main-container">
       <b-row>
         <nav-bar/>
       </b-row>
@@ -62,6 +62,9 @@
 </script>
 
 <style lang="sass" scoped>
+  .blur
+    filter: blur(7px)
+
   .coming-soon
     margin: 0 auto
     display: flex
@@ -81,7 +84,7 @@
     top: 70%
     left: 50%
     color: #2972a5
-    font-size: calc(45px + (100 - 25) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(45px + (100 - 25) * ((100vw - 300px) / (1600 - 300)))
     font-weight: 200
     transform: translate(-50%,-50%)
     -ms-transform: translate(-50%,-50%)
@@ -101,7 +104,6 @@
     font-weight: 200
 
   .container
-    filter: blur(7px)
     align-items: center
     animation: 3s ease 0s normal forwards 1 fadein
     justify-content: space-around
