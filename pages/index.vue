@@ -18,7 +18,7 @@
 
       <b-row>
         <b-col cols="12">
-          <h1 class="site-title font-weight-thin">
+          <h1 class="site-title">
             jonbwalker.com
           </h1>
         </b-col>
@@ -66,18 +66,17 @@
     filter: blur(7px)
 
   .coming-soon
-    margin: 0 auto
+    align-content: center
     display: flex
     justify-content: center
-    align-content: center
-    position: fixed
-    width: 100%
     height: 100%
+    margin: 0 auto
+    position: fixed
     top: 0
     left: 0
     right: 0
     bottom: 0
-    z-index: 2
+    width: 100%
 
   .coming-soon-text
     position: fixed
