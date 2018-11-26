@@ -70,9 +70,9 @@
     display: flex
     justify-content: center
     align-content: center
-    position: fixed /* Sit on top of the page content */
-    width: 100% /* Full width (cover the whole page) */
-    height: 100% /* Full height (cover the whole page) */
+    position: fixed
+    width: 100%
+    height: 100%
     top: 0
     left: 0
     right: 0
