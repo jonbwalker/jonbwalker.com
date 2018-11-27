@@ -1,6 +1,9 @@
 <template>
   <div>
-    <b-link :to="link.url">{{link.name}}</b-link>
+    <b-link :to="link.url"
+            :class="{'active': activeLink}">
+      {{link.name}}
+    </b-link>
   </div>
 </template>
 
@@ -8,7 +11,8 @@
   export default {
     name: "NavItem",
     props: {
-      link: {type: Object, required: true}
+      link: {type: Object, required: true},
+      activeLink: {type: Boolean, required: true}
     }
   }
 </script>
@@ -19,4 +23,6 @@
     &:hover
       text-decoration: none
       color: #BE8635
+  .active
+    color: #BE8635
 </style>

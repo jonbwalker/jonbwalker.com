@@ -1,6 +1,10 @@
 <template>
   <b-container class="nav-container">
-    <nav-item v-for="(link, i) in navLinks" :link="link" :key="i"></nav-item>
+    <nav-item v-for="(link, i) in navLinks"
+              :key="i"
+              :link="link"
+              :activeLink="isActive(link.url)"
+              @click="toggleActive(link.url)"></nav-item>
   </b-container>
 </template>
 
@@ -13,12 +17,25 @@
     data() {
       return {
         navLinks: [
-          {name: 'Home', url: '/home'},
+          {name: 'Home', url: '/'},
           {name: 'Timeline', url: '/timeline'},
           {name: 'Contact', url: '/contact'},
-        ]
+        ],
       }
-    }
+    },
+    methods: {
+      isActive(url) {
+        return this.activeLink === url
+      },
+      toggleActive(url) {
+        return this.activeLink = url
+      }
+    },
+    computed: {
+      activeLink() {
+        return this.$route.path;
+      }
+    },
   }
 </script>
 
