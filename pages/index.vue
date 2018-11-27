@@ -90,7 +90,7 @@
   .site-title
     color: #2972a5
     font-weight: 300
-    font-size: calc(45px + (100 - 25) * ((100vw - 300px) / (1600 - 300)))
+    font-size: calc(50px + (100 - 50) * ((100vw - 300px) / (1600 - 300)))
     letter-spacing: 1px
     padding-top: 60px
     width: auto
