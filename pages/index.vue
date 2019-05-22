@@ -1,11 +1,11 @@
 <template>
   <div>
-    <b-container class="coming-soon">
-      <div class="coming-soon-text">
-        coming soon
-      </div>
-    </b-container>
-    <b-container class="blur main-container">
+<!--    <b-container class="coming-soon">-->
+<!--      <div class="coming-soon-text">-->
+<!--        coming soon-->
+<!--      </div>-->
+<!--    </b-container>-->
+    <b-container class="main-container">
       <b-row>
         <nav-bar/>
       </b-row>
@@ -55,6 +55,7 @@
     right: 0
     bottom: 0
     width: 100%
+    background: rgba(0, 0, 0, 1)
 
   .coming-soon-text
     position: fixed

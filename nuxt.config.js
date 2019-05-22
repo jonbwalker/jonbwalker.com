@@ -1,7 +1,7 @@
 export default {
-  /*
-  ** Headers of the page
-  */
+  plugins: [
+    { src: '~plugins/slForm.js' }
+  ],
   head: {
     title: 'jonbwalker.com',
     meta: [
@@ -11,7 +11,10 @@ export default {
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
-    ]
+    ],
+    script: [
+      { src: 'https://sendlane.test/js/form.js', async: true }
+    ],
   },
   /*
   ** Customize the progress bar color
