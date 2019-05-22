@@ -1,11 +1,11 @@
 <template>
   <div>
-<!--    <b-container class="coming-soon">-->
-<!--      <div class="coming-soon-text">-->
-<!--        coming soon-->
-<!--      </div>-->
-<!--    </b-container>-->
-    <b-container class="main-container">
+    <b-container class="coming-soon">
+      <div class="coming-soon-text">
+        coming soon
+      </div>
+    </b-container>
+    <b-container class="blur main-container">
       <b-row>
         <nav-bar/>
       </b-row>
