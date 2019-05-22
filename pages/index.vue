@@ -55,7 +55,6 @@
     right: 0
     bottom: 0
     width: 100%
-    background: rgba(0, 0, 0, 1)
 
   .coming-soon-text
     position: fixed
