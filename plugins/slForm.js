@@ -1,7 +1,7 @@
 if (process.browser) {
   window._Sendlane = window._Sendlane || [];
   _Sendlane.push({
-    form_key: 'eyJkb21haW4iOiJ1c2VyIiwiZm9ybV9pZCI6IjAyMmIyNmQ5LWFkNWEtNDY1Yy1iMDgzLWVjZGU4ZDA5YmQwMSJ9'
+    form_key: 'eyJkb21haW4iOiJ1c2VyIiwiZm9ybV9pZCI6Ijk5NmExZDk5LTdkZTItNGNiNi04ZWM5LWJhOTEyNjQ1NWE4MCJ9'
   });
   let script = window.document.createElement('script');
   script.src = 'https://sendlane.test/js/form.js';
