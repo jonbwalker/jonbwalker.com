@@ -39,7 +39,7 @@
 
   .container-fluid
     align-items: center
-    background-image: url("../assets/images/lajolla.webp")
+    background-image: url("../assets/images/lajolla.jpg")
     background-size: cover
     animation: 3s ease 0s normal forwards 1 fadein
     justify-content: space-around
