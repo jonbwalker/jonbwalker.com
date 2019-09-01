@@ -1,11 +1,11 @@
 <template>
-  <b-container class="nav-container">
+  <div class="nav-container">
     <nav-item v-for="(link, i) in navLinks"
               :key="i"
               :link="link"
               :activeLink="isActive(link.url)"
               @click="toggleActive(link.url)"></nav-item>
-  </b-container>
+  </div>
 </template>
 
 <script>
@@ -41,10 +41,12 @@
 
 <style lang="sass" scoped>
   .nav-container
-    display: flex
-    margin: 25px 0 25px 0
-    font-size: 20px
     animation: fadein 2s
+    display: flex
+    font-size: 20px
+    justify-content: space-around
+    margin: 25px 0 25px 0
+    width: 100%
 
     @keyframes fadein
       from

@@ -1,33 +1,26 @@
 <template>
-  <div>
-<!--    <b-container class="coming-soon">-->
-<!--      <div class="coming-soon-text">-->
-<!--        coming soon-->
-<!--      </div>-->
-<!--    </b-container>-->
-    <b-container class="main-container">
-      <b-row>
-        <nav-bar/>
-      </b-row>
+  <b-container fluid>
+    <b-row>
+      <nav-bar/>
+    </b-row>
 
-      <b-row>
-        <b-col cols="12">
-          <h1 class="site-title">
-            jonbwalker.com
-          </h1>
-        </b-col>
-      </b-row>
+    <b-row class="section-1">
+      <b-col cols="12">
+        <h1 class="site-title">
+          jonbwalker.com
+        </h1>
+      </b-col>
+    </b-row>
 
-      <b-row>
-        <b-col cols="12">
-          <h2 class="subtitle">
-            personal site built with vue.js
-          </h2>
-        </b-col>
-      </b-row>
+    <b-row>
+      <b-col cols="12">
+        <h2 class="subtitle">
+          personal site built with vue.js
+        </h2>
+      </b-col>
+    </b-row>
 
-    </b-container>
-  </div>
+  </b-container>
 </template>
 
 <script>
@@ -35,60 +28,26 @@
   export default {
     components: {
       NavBar,
-    }
+    },
   }
 </script>
 
 <style lang="sass" scoped>
-  .blur
-    filter: blur(7px)
-
-  .coming-soon
-    align-content: center
-    display: flex
-    justify-content: center
-    height: 100%
-    margin: 0 auto
-    position: fixed
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
-    width: 100%
-
-  .coming-soon-text
-    position: fixed
-    top: 55%
-    left: 50%
-    color: #2972a5
-    font-size: calc(45px + (100 - 25) * ((100vw - 300px) / (1600 - 300)))
-    font-weight: 200
-    transform: translate(-50%,-50%)
-    -ms-transform: translate(-50%,-50%)
-    width: inherit
-    &::before
-      content: '{'
-      color: #BE8635
-      font-size: calc(45px + (100 - 25) * ((100vw - 300px) / (1600 - 300)))
-      padding: 5px
-    &::after
-      content: '}'
-      color: #BE8635
-      font-size: calc(45px + (100 - 25) * ((100vw - 300px) / (1600 - 300)))
-      padding: 5px
-
   html
     font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
     font-weight: 200
 
-  .container
+  .container-fluid
     align-items: center
+    background-image: url("../assets/images/lajolla.jpg")
+    background-size: cover
     animation: 3s ease 0s normal forwards 1 fadein
     justify-content: space-around
     text-align: center
+    height: 100vh
 
   .site-title
-    color: #2972a5
+    color: black
     font-weight: 300
     font-size: calc(50px + (100 - 50) * ((100vw - 300px) / (1600 - 300)))
     letter-spacing: 1px
@@ -98,7 +57,7 @@
   .subtitle
     font-weight: 300
     font-size: 4vw
-    color: #BE8635
+    color: black
     word-spacing: 5px
     padding-bottom: 15px
 

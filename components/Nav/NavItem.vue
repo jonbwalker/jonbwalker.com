@@ -19,10 +19,10 @@
 
 <style lang="sass" scoped>
   a
-    color: #2972A5
+    color: white
     &:hover
       text-decoration: none
-      color: #BE8635
+      color: black
   .active
-    color: #BE8635
+    color: black
 </style>
