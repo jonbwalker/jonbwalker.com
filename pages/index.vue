@@ -82,5 +82,6 @@
       font-size: 70px
     .subtitle
       font-size: 48px
+    .section-1, .section-2
+      max-width: 375px
 </style>
-
