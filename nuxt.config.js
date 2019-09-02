@@ -37,4 +37,7 @@ export default {
     }
   },
   modules: ['bootstrap-vue/nuxt'],
+  bootstrapVue: {
+    componentPlugins: ['LayoutPlugin', 'NavbarPlugin'],
+  }
 }
