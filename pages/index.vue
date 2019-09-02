@@ -1,9 +1,5 @@
 <template>
   <b-container fluid>
-    <b-row>
-      <nav-bar/>
-    </b-row>
-
     <b-row class="section-1">
       <b-col cols="12">
         <h1 class="site-title">
@@ -24,11 +20,8 @@
 </template>
 
 <script>
-  import { NavBar } from "../components/Nav"
   export default {
-    components: {
-      NavBar,
-    },
+      layout: 'app'
   }
 </script>
 
