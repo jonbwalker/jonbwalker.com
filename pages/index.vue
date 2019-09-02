@@ -41,7 +41,7 @@
 
   .section-1
     background: rgba(255,255,255,0.5)
-    border-radius: 25px
+    border-radius: 8px
     margin-top: 60px
     padding-bottom: 7px
 
@@ -53,9 +53,10 @@
 
   .section-2
     background: rgba(0,0,0,0.4)
-    border-radius: 25px
+    border-radius: 8px
     margin-left: 12%
     padding-bottom: 2px
+    margin-top: 14px
 
   .subtitle
     color: #85c9f3
