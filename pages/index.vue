@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
     <b-row>
-      <b-col offset="1" cols="5" sm="4" class="section-1">
+      <b-col offset="1" cols="8" sm="4" class="section-1">
         <span class="site-title">
           jonbwalker
         </span>
@@ -9,7 +9,7 @@
     </b-row>
 
     <b-row>
-      <b-col cols="5" sm="4" class="section-2">
+      <b-col cols="8" sm="4" class="section-2">
         <span class="subtitle">
           web developer
         </span>
