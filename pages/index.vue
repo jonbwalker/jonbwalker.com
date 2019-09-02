@@ -2,17 +2,17 @@
   <b-container fluid>
     <b-row>
       <b-col cols="4" class="section-1">
-        <h1 class="site-title">
+        <span class="site-title">
           jonbwalker
-        </h1>
+        </span>
       </b-col>
     </b-row>
 
     <b-row>
       <b-col cols="4" class="section-2">
-        <h2 class="subtitle">
+        <span class="subtitle">
           web developer
-        </h2>
+        </span>
       </b-col>
     </b-row>
 
@@ -60,7 +60,7 @@
     border-radius: 25px
     margin-right: 32%
     margin-left: 12%
-    padding-bottom: 8px
+    padding-bottom: 2px
 
   .subtitle
     color: #85c9f3
