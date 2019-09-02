@@ -72,6 +72,12 @@
     100%
       opacity: 1
 
+  @media screen and (max-width: 576px)
+      .site-title
+        font-size: 40px
+      .subtitle
+        font-size: 24px
+
   @media screen and (min-width: 1200px)
     .site-title
       font-size: 70px
