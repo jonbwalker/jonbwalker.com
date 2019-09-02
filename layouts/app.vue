@@ -8,10 +8,29 @@
 import { NavBar } from './Nav';
 
 export default {
-    components: { NavBar }
+    components: { NavBar },
+    head: {
+        bodyAttrs: {
+            class: 'body-style'
+        }
+    }
 }
 </script>
 <style>
+.body-style {
+  scrollbar-color: #343a40 #000
+}
+
+.body-style::-webkit-scrollbar {
+  width: 7px;
+  background-color: #000;
+}
+
+.body-style::-webkit-scrollbar-thumb {
+  background: #343a40;
+  -webkit-border-radius: 6px;
+}
+
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
