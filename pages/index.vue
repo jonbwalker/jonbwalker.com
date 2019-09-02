@@ -3,7 +3,7 @@
     <b-row class="section-1">
       <b-col cols="12">
         <h1 class="site-title">
-          jonbwalker.com
+          jonbwalker
         </h1>
       </b-col>
     </b-row>
@@ -11,7 +11,7 @@
     <b-row>
       <b-col cols="12">
         <h2 class="subtitle">
-          personal site built with vue.js
+          web developer
         </h2>
       </b-col>
     </b-row>
@@ -40,19 +40,29 @@
     height: 100vh
 
   .site-title
-    color: black
+    background: rgba(255,255,255,0.5)
+    border-radius: 25px
+    color: #343a40
     font-weight: 300
     font-size: calc(50px + (100 - 50) * ((100vw - 400px) / (1600 - 400)))
     letter-spacing: 1px
-    padding-top: 60px
-    width: auto
+    margin-top: 60px
+    margin-right: 32%
+    margin-left: 6%
+    padding-bottom: 7px
+    width: 34%
 
   .subtitle
+    color: #85c9f3
+    background: rgba(0,0,0,0.4)
+    border-radius: 25px
     font-weight: 300
     font-size: 4vw
-    color: black
+    margin-right: 32%
+    margin-left: 12%
+    padding-bottom: 8px
     word-spacing: 5px
-    padding-bottom: 15px
+    width: 34%
 
   @keyframes fadein
     0%
