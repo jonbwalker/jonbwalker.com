@@ -42,7 +42,7 @@
   .site-title
     color: black
     font-weight: 300
-    font-size: calc(50px + (100 - 50) * ((100vw - 300px) / (1600 - 300)))
+    font-size: calc(50px + (100 - 50) * ((100vw - 400px) / (1600 - 400)))
     letter-spacing: 1px
     padding-top: 60px
     width: auto
