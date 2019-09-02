@@ -13,8 +13,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "bootstrap-vue": "^2.0.0-rc.11",
-    "nuxt-edge": "^2.2.0-25657632.95428c2"
+    "bootstrap-vue": "^2.0.0-rc.22",
+    "nuxt-edge": "^2.10.0-26123052.0daaf87c"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
