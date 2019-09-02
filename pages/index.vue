@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
     <b-row>
-      <b-col cols="5" sm="4" class="section-1">
+      <b-col offset="1" cols="5" sm="4" class="section-1">
         <span class="site-title">
           jonbwalker
         </span>
@@ -43,8 +43,6 @@
     background: rgba(255,255,255,0.5)
     border-radius: 25px
     margin-top: 60px
-    margin-right: 32%
-    margin-left: 6%
     padding-bottom: 7px
 
   .site-title
@@ -56,7 +54,6 @@
   .section-2
     background: rgba(0,0,0,0.4)
     border-radius: 25px
-    margin-right: 32%
     margin-left: 12%
     padding-bottom: 2px
 
@@ -65,7 +62,6 @@
     font-weight: 300
     font-size: 4vw
     word-spacing: 5px
-
 
   @keyframes fadein
     0%
