@@ -26,8 +26,6 @@
 </script>
 
 <style lang="sass" scoped>
-  $enable-responsive-font-sizes: true
-
   html
     font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
     font-weight: 200
