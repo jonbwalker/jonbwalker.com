@@ -9,7 +9,7 @@
     </b-row>
 
     <b-row>
-      <b-col cols="8" sm="4" class="section-2">
+      <b-col offset="1" cols="8" sm="4" class="section-2">
         <span class="subtitle">
           web developer
         </span>
@@ -26,6 +26,7 @@
 </script>
 
 <style lang="sass" scoped>
+  @import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap')
   html
     font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
     font-weight: 200
@@ -41,27 +42,26 @@
 
   .section-1
     background: rgba(255,255,255,0.5)
-    border-radius: 8px
+    border-radius: 8px 8px 0 0
     margin-top: 60px
     padding-bottom: 7px
 
   .site-title
     color: #343a40
-    font-weight: 300
     font-size: 6vw
+    font-weight: 200
     letter-spacing: 1px
 
   .section-2
     background: rgba(0,0,0,0.4)
-    border-radius: 8px
-    margin-left: 12%
+    border-radius: 0 0 8px 8px
     padding-bottom: 2px
-    margin-top: 14px
 
   .subtitle
     color: #85c9f3
-    font-weight: 300
     font-size: 4vw
+    font-family: 'Quicksand', sans-serif
+    font-weight: 200
     word-spacing: 5px
 
   @keyframes fadein
@@ -82,7 +82,7 @@
     .site-title
       font-size: 70px
     .subtitle
-      font-size: 48px
+      font-size: 42px
     .section-1, .section-2
       max-width: 375px
 </style>
