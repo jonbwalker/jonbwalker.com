@@ -16,6 +16,12 @@
       </b-col>
     </b-row>
 
+    <b-row>
+      <b-col offset="1" cols="8" sm="4" class="section-3">
+        <b-img fluid src="../assets/images/profile-round-squoosh.jpg" rounded="circle" alt="Image 1" height="400" width="400"></b-img>
+      </b-col>
+    </b-row>
+
   </b-container>
 </template>
 
@@ -54,7 +60,6 @@
 
   .section-2
     background: rgba(0,0,0,0.4)
-    border-radius: 0 0 8px 8px
     padding-bottom: 2px
 
   .subtitle
@@ -63,6 +68,11 @@
     font-family: 'Quicksand', sans-serif
     font-weight: 200
     word-spacing: 5px
+
+  .section-3
+    background: rgba(0,0,0,0.4)
+    padding-bottom: 2px
+    border-radius: 0 0 8px 8px
 
   @keyframes fadein
     0%
@@ -83,6 +93,6 @@
       font-size: 70px
     .subtitle
       font-size: 42px
-    .section-1, .section-2
+    .section-1, .section-2, .section-3
       max-width: 375px
 </style>
