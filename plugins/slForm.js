@@ -9,4 +9,3 @@ if (process.browser) {
   let first = document.getElementsByTagName('script')[0];
   first.parentNode.insertBefore(script, first);
 }
-

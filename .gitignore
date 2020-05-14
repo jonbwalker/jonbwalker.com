@@ -12,3 +12,6 @@ dist
 
 # IDE (Webstorm)
 /.idea
+
+# misc
+.DS_Store
