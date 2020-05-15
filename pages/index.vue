@@ -79,7 +79,7 @@
     from 
       width: 0
     to
-      width: 7.2em
+      width: 7.5em
 
   @keyframes blinkTextCursor
     from
@@ -95,7 +95,7 @@
     100%
       opacity: 1
 
-  @media screen and (max-width: 576px)
+  @media screen and (max-width: 412px)
       .site-title
         font-size: 40px
       .subtitle
