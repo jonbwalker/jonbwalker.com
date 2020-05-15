@@ -16,14 +16,3 @@
     name: 'NavBar',
   }
 </script>
-
-<style lang="sass" scoped>
-  .nav-container
-    animation: fadein 6s
-
-    @keyframes fadein
-      from
-        opacity: 0
-      to
-        opacity: 1
-</style>

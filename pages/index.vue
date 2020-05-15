@@ -1,24 +1,20 @@
 <template>
-  <b-container fluid>
-    <b-row>
-      <b-col offset="1" cols="8" sm="4" class="section-1">
-        <span class="site-title">
-          jonbwalker
-        </span>
-      </b-col>
+  <b-container fluid class="bg-dark">
+    <b-row class="justify-content-md-center">
+      <b-col cols="12" class="site-title">
+          <p class="typewriter-text anim-typewriter">jonathan walker</p>
+        </b-col>
     </b-row>
 
-    <b-row>
-      <b-col offset="1" cols="8" sm="4" class="section-2">
-        <span class="subtitle">
+    <b-row class="justify-content-md-center">
+      <b-col cols="12" md="auto" class="subtitle">
           web developer
-        </span>
       </b-col>
     </b-row>
 
-    <b-row>
-      <b-col offset="1" cols="8" sm="4" class="section-3">
-        <b-img fluid src="../assets/images/profile-round-squoosh.jpg" rounded="circle" alt="Image 1" height="400" width="400"></b-img>
+    <b-row class="justify-content-md-center">
+      <b-col cols="12" md="auto" class="self-image">
+        <b-img fluid src="../assets/images/profile-round-squoosh.jpg" rounded="circle" alt="self-image" height="300" width="300"></b-img>
       </b-col>
     </b-row>
 
@@ -27,7 +23,7 @@
 
 <script>
   export default {
-      layout: 'app'
+      layout: 'app',
   }
 </script>
 
@@ -39,40 +35,53 @@
 
   .container-fluid
     align-items: center
-    background-image: url("../assets/images/lajolla.jpg")
     background-size: cover
-    animation: 3s ease 0s normal forwards 1 fadein
     justify-content: space-around
     text-align: center
     height: 100vh
 
-  .section-1
-    background: rgba(255,255,255,0.5)
-    border-radius: 8px 8px 0 0
-    margin-top: 60px
-    padding-bottom: 7px
-
   .site-title
-    color: #343a40
+    color: white
     font-size: 6vw
-    font-weight: 200
+    font-weight: 400
     letter-spacing: 1px
 
-  .section-2
-    background: rgba(0,0,0,0.4)
-    padding-bottom: 2px
-
   .subtitle
-    color: #85c9f3
+    animation: 8s ease 0s normal forwards 1 fadein
+    color: white
     font-size: 4vw
     font-family: 'Quicksand', sans-serif
     font-weight: 200
     word-spacing: 5px
 
-  .section-3
-    background: rgba(0,0,0,0.4)
+  .self-image
+    animation: 8s ease 0s normal forwards 1 fadein
+    margin-top: 20px
     padding-bottom: 2px
-    border-radius: 0 0 8px 8px
+
+  .typewriter-text
+      position: relative
+      width: 7em
+      margin: 0 auto
+      border-right: 2px solid rgba(255,255,255,.75)
+      text-align: center
+      white-space: nowrap
+      overflow: hidden
+
+  .anim-typewriter
+      animation: typewriter 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
+
+  @keyframes typewriter
+    from 
+      width: 0
+    to
+      width: 7em
+
+  @keyframes blinkTextCursor
+    from
+      border-right-color: rgba(255,255,255,.75)
+    to
+      border-right-color: transparent
 
   @keyframes fadein
     0%
@@ -93,6 +102,6 @@
       font-size: 70px
     .subtitle
       font-size: 42px
-    .section-1, .section-2, .section-3
+    .self-image
       max-width: 375px
 </style>
