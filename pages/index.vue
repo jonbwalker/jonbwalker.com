@@ -2,7 +2,7 @@
   <b-container fluid class="bg-dark">
     <b-row class="justify-content-md-center">
       <b-col cols="12" class="site-title">
-          <p class="typewriter-text anim-typewriter">jonathan walker</p>
+          <p class="typewriter-text">jonathan walker</p>
         </b-col>
     </b-row>
 
@@ -55,7 +55,7 @@
     word-spacing: 5px
 
   .self-image
-    animation: 8s ease 0s normal forwards 1 fadein
+    animation: 8s ease 02s normal forwards 1 fadein
     margin-top: 20px
     padding-bottom: 2px
 
@@ -68,14 +68,18 @@
       white-space: nowrap
       overflow: hidden
 
-  .anim-typewriter
-      animation: typewriter 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 
   @keyframes typewriter
     from 
       width: 0
     to
       width: 7em
+
+  @keyframes typewriter-mobile
+    from 
+      width: 0
+    to
+      width: 7.2em
 
   @keyframes blinkTextCursor
     from
@@ -96,6 +100,8 @@
         font-size: 40px
       .subtitle
         font-size: 24px
+      .typewriter-text
+        animation: typewriter-mobile 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 
   @media screen and (min-width: 1200px)
     .site-title
@@ -104,4 +110,6 @@
       font-size: 42px
     .self-image
       max-width: 375px
+    .typewriter-text
+      animation: typewriter 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 </style>
