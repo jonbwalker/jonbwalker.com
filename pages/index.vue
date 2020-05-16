@@ -55,7 +55,7 @@
     word-spacing: 5px
 
   .self-image
-    animation: 8s ease 02s normal forwards 1 fadein
+    animation: 8s ease 0s normal forwards 1 fadein
     margin-top: 20px
     padding-bottom: 2px
 
@@ -100,6 +100,8 @@
         font-size: 40px
       .subtitle
         font-size: 24px
+
+  @media screen and (max-width: 768px)
       .typewriter-text
         animation: typewriter-mobile 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 
