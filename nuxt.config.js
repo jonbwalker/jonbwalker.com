@@ -6,7 +6,7 @@ export default {
     title: 'jonbwalker.com',
     meta: [
       {charset: 'utf-8'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      {name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no'},
       {hid: 'description', name: 'description', content: 'personal site built with vue.js'}
     ],
     link: [
