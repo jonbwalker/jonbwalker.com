@@ -1,20 +1,14 @@
 <template>
   <b-container fluid class="bg-dark">
-    <b-row class="justify-content-md-center">
+    <b-row class="justify-content-md-center pt-5">
       <b-col cols="12" class="site-title">
-          <p class="typewriter-text">jonathan walker</p>
+          <p class="typewriter-text typewriter-anim">jonathan walker</p>
         </b-col>
     </b-row>
 
     <b-row class="justify-content-md-center">
       <b-col cols="12" md="auto" class="subtitle">
-          web developer
-      </b-col>
-    </b-row>
-
-    <b-row class="justify-content-md-center">
-      <b-col cols="12" md="auto" class="self-image">
-        <b-img fluid src="../assets/images/profile-round-squoosh.jpg" rounded="circle" alt="self-image" height="300" width="300"></b-img>
+          <p class="typewriter-text typewriter-anim-2">web developer</p>
       </b-col>
     </b-row>
 
@@ -47,17 +41,11 @@
     letter-spacing: 1px
 
   .subtitle
-    animation: 8s ease 0s normal forwards 1 fadein
     color: white
     font-size: 4vw
     font-family: 'Quicksand', sans-serif
     font-weight: 200
     word-spacing: 5px
-
-  .self-image
-    animation: 8s ease 0s normal forwards 1 fadein
-    margin-top: 20px
-    padding-bottom: 2px
 
   .typewriter-text
       position: relative
@@ -68,6 +56,11 @@
       white-space: nowrap
       overflow: hidden
 
+  @keyframes revealRight
+    0%
+      transform: translateX(0)
+    100%
+      transform: translateX(300px)
 
   @keyframes typewriter
     from 
@@ -87,14 +80,6 @@
     to
       border-right-color: transparent
 
-  @keyframes fadein
-    0%
-      opacity: 0
-    50%
-      opacity: 0
-    100%
-      opacity: 1
-
   @media screen and (max-width: 412px)
       .site-title
         font-size: 40px
@@ -102,7 +87,9 @@
         font-size: 24px
 
   @media screen and (max-width: 768px)
-      .typewriter-text
+      .typewriter-anim-2
+        animation: typewriter-mobile 2s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
+      .typewriter-anim
         animation: typewriter-mobile 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 
   @media screen and (min-width: 1200px)
@@ -112,6 +99,8 @@
       font-size: 42px
     .self-image
       max-width: 375px
-    .typewriter-text
+    .typewriter-anim-2
+      animation: typewriter 2s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
+    .typewriter-anim
       animation: typewriter 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 </style>
