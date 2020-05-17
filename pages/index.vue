@@ -41,7 +41,6 @@ export default {
 
   .subtitle
     color: #4dcff7
-    // color: #ffc725
     font-size: 4vw
     font-family: 'Quicksand', sans-serif
     font-weight: 200
@@ -88,8 +87,8 @@ export default {
   @media screen and (max-width: 412px)
     .site-title
       font-size: 40px
-      .subtitle
-        font-size: 24px
+    .subtitle
+      font-size: 24px
 
   @media screen and (max-width: 768px)
     .typewriter-anim-2
