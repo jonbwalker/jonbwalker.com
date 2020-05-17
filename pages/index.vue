@@ -1,13 +1,13 @@
 <template>
   <b-container fluid class="bg-dark">
     <b-row class="pt-5">
-      <b-col class="site-title" offset="4">
+      <b-col class="site-title" offset="1" offset-sm="4">
         <p class="typewriter-text typewriter-animination-title">jonathan walker</p>
       </b-col>
     </b-row>
 
     <b-row class="">
-      <b-col md="auto" class="subtitle" offset="6">
+      <b-col class="subtitle" offset="5" offset-sm="5">
         <p class="typewriter-text typewriter-animination-subtitle">web developer</p>
       </b-col>
     </b-row>
