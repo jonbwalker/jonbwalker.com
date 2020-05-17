@@ -2,13 +2,13 @@
   <b-container fluid class="bg-dark">
     <b-row class="justify-content-md-center pt-5">
       <b-col cols="12" class="site-title">
-        <p class="typewriter-text typewriter-anim">jonathan walker</p>
+        <p class="typewriter-text typewriter-animination-title">jonathan walker</p>
       </b-col>
     </b-row>
 
     <b-row class="justify-content-md-center">
       <b-col cols="12" md="auto" class="subtitle" offset="3">
-        <p class="typewriter-text typewriter-anim-2">web developer</p>
+        <p class="typewriter-text typewriter-animination-subtitle">web developer</p>
       </b-col>
     </b-row>
   </b-container>
@@ -55,10 +55,10 @@ export default {
     white-space: nowrap
     overflow: hidden
 
-  .typewriter-anim-2
-    animation: typewriter-mobile 1s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
-  .typewriter-anim
+  .typewriter-animination-title
     animation: typewriter-mobile 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
+  .typewriter-animination-subtitle
+    animation: typewriter-mobile 1s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 
   @keyframes revealRight
     0%
@@ -91,10 +91,10 @@ export default {
       font-size: 24px
 
   @media screen and (max-width: 768px)
-    .typewriter-anim-2
+    .typewriter-animination-title
+      animation: typewriter-mobile 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
+    .typewriter-animination-subtitle
       animation: typewriter-mobile 1s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
-      .typewriter-anim
-        animation: typewriter-mobile 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 
   @media screen and (min-width: 1200px)
     .site-title
@@ -103,8 +103,8 @@ export default {
       font-size: 42px
     .self-image
       max-width: 375px
-    .typewriter-anim-2
-      animation: typewriter 1s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
-    .typewriter-anim
+    .typewriter-animination-title
       animation: typewriter 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
+    .typewriter-animination-subtitle
+      animation: typewriter 1s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 </style>
