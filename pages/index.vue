@@ -100,8 +100,6 @@ export default {
       font-size: 70px
     .subtitle
       font-size: 42px
-    .self-image
-      max-width: 375px
     .typewriter-animination-title
       animation: typewriter 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
     .typewriter-animination-subtitle
