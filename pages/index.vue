@@ -1,13 +1,13 @@
 <template>
   <b-container fluid class="bg-dark">
-    <b-row class="justify-content-md-center pt-5">
-      <b-col cols="12" class="site-title">
+    <b-row class="pt-5">
+      <b-col class="site-title" offset="4">
         <p class="typewriter-text typewriter-animination-title">jonathan walker</p>
       </b-col>
     </b-row>
 
-    <b-row class="justify-content-md-center">
-      <b-col cols="12" md="auto" class="subtitle" offset="3">
+    <b-row class="">
+      <b-col md="auto" class="subtitle" offset="6">
         <p class="typewriter-text typewriter-animination-subtitle">web developer</p>
       </b-col>
     </b-row>
@@ -49,7 +49,6 @@ export default {
   .typewriter-text
     position: relative
     width: 7em
-    margin: 0 auto
     border-right: 2px solid rgba(255,255,255,.75)
     text-align: center
     white-space: nowrap
