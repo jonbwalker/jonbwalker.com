@@ -2,23 +2,22 @@
   <b-container fluid class="bg-dark">
     <b-row class="justify-content-md-center pt-5">
       <b-col cols="12" class="site-title">
-          <p class="typewriter-text typewriter-anim">jonathan walker</p>
-        </b-col>
-    </b-row>
-
-    <b-row class="justify-content-md-center">
-      <b-col cols="12" md="auto" class="subtitle">
-          <p class="typewriter-text typewriter-anim-2">web developer</p>
+        <p class="typewriter-text typewriter-anim">jonathan walker</p>
       </b-col>
     </b-row>
 
+    <b-row class="justify-content-md-center">
+      <b-col cols="12" md="auto" class="subtitle" offset="3">
+        <p class="typewriter-text typewriter-anim-2">web developer</p>
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 
 <script>
-  export default {
-      layout: 'app',
-  }
+export default {
+  layout: "app"
+};
 </script>
 
 <style lang="sass" scoped>
@@ -41,20 +40,26 @@
     letter-spacing: 1px
 
   .subtitle
-    color: white
+    color: #4dcff7
+    // color: #ffc725
     font-size: 4vw
     font-family: 'Quicksand', sans-serif
     font-weight: 200
     word-spacing: 5px
 
   .typewriter-text
-      position: relative
-      width: 7em
-      margin: 0 auto
-      border-right: 2px solid rgba(255,255,255,.75)
-      text-align: center
-      white-space: nowrap
-      overflow: hidden
+    position: relative
+    width: 7em
+    margin: 0 auto
+    border-right: 2px solid rgba(255,255,255,.75)
+    text-align: center
+    white-space: nowrap
+    overflow: hidden
+
+  .typewriter-anim-2
+    animation: typewriter-mobile 1s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
+  .typewriter-anim
+    animation: typewriter-mobile 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 
   @keyframes revealRight
     0%
@@ -63,13 +68,13 @@
       transform: translateX(300px)
 
   @keyframes typewriter
-    from 
+    from
       width: 0
     to
       width: 7em
 
   @keyframes typewriter-mobile
-    from 
+    from
       width: 0
     to
       width: 7.5em
@@ -81,14 +86,14 @@
       border-right-color: transparent
 
   @media screen and (max-width: 412px)
-      .site-title
-        font-size: 40px
+    .site-title
+      font-size: 40px
       .subtitle
         font-size: 24px
 
   @media screen and (max-width: 768px)
-      .typewriter-anim-2
-        animation: typewriter-mobile 2s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
+    .typewriter-anim-2
+      animation: typewriter-mobile 1s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
       .typewriter-anim
         animation: typewriter-mobile 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 
@@ -100,7 +105,7 @@
     .self-image
       max-width: 375px
     .typewriter-anim-2
-      animation: typewriter 2s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
+      animation: typewriter 1s steps(40) 2s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
     .typewriter-anim
       animation: typewriter 2s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal
 </style>
