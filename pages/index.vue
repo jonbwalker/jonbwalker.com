@@ -7,7 +7,7 @@
     </b-row>
 
     <b-row class="">
-      <b-col class="subtitle" offset="5" offset-sm="5">
+      <b-col class="subtitle" offset="5" offset-sm="6">
         <p class="typewriter-text typewriter-animination-subtitle">web developer</p>
       </b-col>
     </b-row>
