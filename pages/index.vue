@@ -25,7 +25,7 @@ export default {
   html
     font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
     font-weight: 200
-
+  
   .container-fluid
     align-items: center
     background-size: cover
@@ -39,13 +39,18 @@ export default {
     font-size: 6vw
     font-weight: 400
     letter-spacing: 1px
+    p
+      margin: 0
 
   .subtitle
-    color: #4dcff7
+    color: #f7ce4d
     font-size: 4vw
     font-family: 'Muli', sans-serif
     font-weight: 200
     word-spacing: 5px
+    p
+      margin: 0
+
 
   .typewriter-text
     position: relative
