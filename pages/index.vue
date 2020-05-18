@@ -21,9 +21,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  @import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap')
+  @import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,200&family=Roboto&display=swap')
   html
-    font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+    font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
     font-weight: 200
 
   .container-fluid
@@ -35,6 +35,7 @@ export default {
 
   .site-title
     color: white
+    font-family: 'Roboto', sans-serif
     font-size: 6vw
     font-weight: 400
     letter-spacing: 1px
@@ -42,7 +43,7 @@ export default {
   .subtitle
     color: #4dcff7
     font-size: 4vw
-    font-family: 'Quicksand', sans-serif
+    font-family: 'Muli', sans-serif
     font-weight: 200
     word-spacing: 5px
 
@@ -69,7 +70,7 @@ export default {
     from
       width: 0
     to
-      width: 7em
+      width: 7.3em
 
   @keyframes typewriter-mobile
     from
