@@ -41,6 +41,7 @@ export default {
     letter-spacing: 1px
     p
       margin: 0
+      line-height: 1.1em
 
   .subtitle
     color: #f7ce4d
@@ -50,6 +51,7 @@ export default {
     word-spacing: 5px
     p
       margin: 0
+      line-height: 1.1em
 
 
   .typewriter-text
