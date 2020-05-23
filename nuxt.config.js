@@ -10,7 +10,8 @@ export default {
       {hid: 'description', name: 'description', content: 'personal site built with vue.js'}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,200&family=Roboto&display=swap'}
     ],
   },
 

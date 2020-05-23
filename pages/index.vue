@@ -1,4 +1,4 @@
-<template>
+  <template>
   <b-container fluid class="bg-dark">
     <b-row class="pt-5">
       <b-col class="site-title" offset="1" offset-sm="4">
@@ -21,7 +21,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  @import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,200&family=Roboto&display=swap')
   html
     font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
     font-weight: 200
